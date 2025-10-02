@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tst/screens/enhanced_news_feed_screen.dart';
 
 import 'package:tst/screens/news_feed_screen.dart';
 import 'package:tst/screens/sms_monitor_screen.dart';
@@ -32,7 +33,7 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
   
   final List<Widget> _screens = [
-    NewsFeedScreen(),
+    EnhancedNewsFeedScreen(),
     SocialSentimentScreen(),
     SmsMonitorScreen()
   ];
