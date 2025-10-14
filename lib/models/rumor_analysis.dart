@@ -38,11 +38,11 @@ class RumorAnalysis {
   String get emoji {
     switch (classification) {
       case 'rumor':
-        return '⚠️';
+        return 'âš ï¸';
       case 'credible':
-        return '✅';
+        return 'âœ…';
       default:
-        return '🤔';
+        return 'ðŸ¤”';
     }
   }
 

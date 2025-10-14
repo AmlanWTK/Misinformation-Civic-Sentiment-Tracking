@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tst/services/news_service.dart';
-
+import 'package:misinformation_and_civic_sentiment/services/news_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
